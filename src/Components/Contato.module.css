@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap');
+
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.dados {
+  list-style: none;
+  padding: 0px;
+}
+
+.dados li {
+  font-size: 1.2rem;
+  font-family: "Figtree", Arial, Helvetica, sans-serif;
+  margin-bottom: 0.8rem;
+}
+
+.dados li::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background: #ddd;
+  margin-right: 10px;
+}
